@@ -23,3 +23,9 @@
   justify-content: center;
   margin-bottom: 20px;
 }
+
+.hero__img{
+  @media screen and (max-width: 1199) {
+    max-width: 100px;
+  }
+}
