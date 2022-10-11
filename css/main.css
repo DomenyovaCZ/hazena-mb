@@ -324,12 +324,7 @@ address {
 }
 
 .hero__img {
-  width: 350px;
-}
-@media screen and (max-width: 767px) {
-  .hero__img {
-    width: 200px;
-  }
+  width: 300px;
 }
 
 @media screen and (max-width: 1199px) {
