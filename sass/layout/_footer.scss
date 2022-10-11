@@ -1,6 +1,9 @@
 .footer__container{
-    display: flex;
-    justify-content: space-evenly;
+    @media screen and (min-width: 1200px) {
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
     gap: 20px;
 
     padding-top: 20px;
