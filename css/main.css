@@ -326,6 +326,11 @@ address {
 .hero__img {
   width: 350px;
 }
+@media screen and (max-width: 767px) {
+  .hero__img {
+    width: 200px;
+  }
+}
 
 @media screen and (max-width: 1199px) {
   .about__section {
