@@ -1,0 +1,32 @@
+
+.location__address {
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1200px){
+
+    display: flex;
+    justify-content: space-evenly;
+  
+    margin-bottom: 60px;
+  }
+}
+
+.location {
+    display: flex;      
+    align-items: center;
+
+    width: 450px;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: calc(36 / 22);
+
+  
+}
