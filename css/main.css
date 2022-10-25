@@ -510,7 +510,7 @@ address {
   }
 }
 
-.trener_text_style {
+.trener_style {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,7 +520,7 @@ address {
   gap: 20px;
 }
 @media screen and (min-width: 768px) {
-  .trener_text_style {
+  .trener_style {
     gap: 50px;
   }
 }
