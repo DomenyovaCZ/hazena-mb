@@ -502,7 +502,7 @@ address {
 }
 
 .trener_img {
-  width: 450px;
+  width: 420px;
 }
 @media screen and (min-width: 768px) {
   .trener_img {
@@ -517,7 +517,12 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 50px;
+  gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .trener_text_style {
+    gap: 50px;
+  }
 }
 
 .trener_text {
